@@ -1,0 +1,33 @@
+.title {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.input {
+    font-size: 1.5rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 20px;
+    margin-left: 2rem;
+}
+.button {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    border: 1px solid;
+    margin-left: 1rem;
+}
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+img {
+  width: 100px;
+  height: 100px;
+}li {
+  list-style: none;
+}
+.movie-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.movie-title {
+  font-size: 1rem;
+}
